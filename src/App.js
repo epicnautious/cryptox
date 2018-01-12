@@ -11,7 +11,6 @@ class App extends Component {
     this.state = {}
   }
 
-  //refactor
   extractPrice(data){
     let price_state = {}
     _.each(this.SYMBOLS, symbol => {
